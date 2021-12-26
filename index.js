@@ -9,8 +9,12 @@ function calculateBMI() {
 
   // You are going to write the code here before the curly braces 👇🏻
 
+// Challenge 1 ---
+
 const bmi=(weight/(height/100*height/100));
 alert(`I am ${bmi}`)
+
+// Challenge 2 ---
 
 if(bmi<18.5) {
 
@@ -31,6 +35,9 @@ else if(bmi>30) {
   alert(`I am obese`);
 
 }
+
+// Challenge 3 ---
+
 
 
 }
